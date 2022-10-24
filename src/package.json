@@ -9,7 +9,7 @@
     "predocker": "npm ci --production",
     "docker": "docker build -t $DOCKER_HUB_USER/$npm_package_name:$npm_package_version .",
     "postdocker": "docker push $DOCKER_HUB_USER/$npm_package_name:$npm_package_version",
-    "printenv": "printenv | grep -i github"
+    "printenv": "printenv | grep -i docker"
   },
   "keywords": [],
   "author": "",
